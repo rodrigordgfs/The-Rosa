@@ -1,46 +1,248 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>The Rosa - Restaurant</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="The Rosa - Homemade food restaurant" />
-    <meta property="og:description" content="Come and discover our delicacies made with love in a traditional kitchen" />
+    <meta
+      property="og:description"
+      content="Come and discover our delicacies made with love in a traditional kitchen"
+    />
     <meta property="og:url" content="https://shinodalabs.com.br/rosa/"" />
-    <meta property="og:image" content="https://shinodalabs.com.br/rosa/assets/images/favicon.png" />
-    <link rel="stylesheet" href="css/fonts.css" />
+    <meta
+      property="og:image"
+      content="https://shinodalabs.com.br/rosa/assets/images/image-story.png"
+    />
+    <!-- <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#CCAA6A">
+    <link rel="stylesheet" href="css/simple-anime.css" /> -->
+    <link rel="stylesheet" href="css/style-min.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#CCAA6A" />
     <script>
-        document.documentElement.classList.add("js");
+      document.documentElement.classList.add("js");
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <section class="welcome">
-        
+      <div class="container fadeInDown" data-anime="400">
+        <a href="#" class="grid-3 logo">Rosa</a>
+        <nav class="grid-13 nav_menu">
+          <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#culinary">Culinary</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container welcome_main fadeInUp" data-anime="800">
+        <h2 id="welcome">Welcome</h2>
+        <h1>The Rosa</h1>
+        <img src="assets/icons/divider-welcome.svg" alt="Divider Welcome" />
+        <h3>Ready to be oppened</h3>
+      </div>
     </section>
-</body>
+
+    <section class="container story">
+        <div class="grid-8 story_description">
+            <h2 id="story">Discover</h2>
+            <h3>Our Story</h3>
+            <img src="assets/icons/divider-section-title.svg" alt="Divider Section Title">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras maximus diam dignissim augue pellentesque, 
+                et molestie felis pulvinar. Donec sed tristique leo. 
+                Aenean efficitur lacus id enim volutpat rutrum.
+            </p>
+            <a href="#">About us</a>
+        </div>
+        <div class="grid-8">
+            <img src="assets/images/image-story.png" alt="Story">
+        </div>
+    </section>
+
+    <section class="recipes">
+      <div class="container">
+        <h2>Tasteful</h2>
+        <h3>Recipes</h3>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container">
+        <div class="grid-8 menu_images">
+          <ul>
+            <li><img src="assets/images/image-menu-1.png" alt=""></li>
+            <li><img src="assets/images/image-menu-2.png" alt=""></li>
+          </ul>
+          <ul class="menu_images_bottom">
+            <li><img src="assets/images/image-menu-3.png" alt=""></li>
+            <li><img src="assets/images/image-menu-4.png" alt=""></li>
+          </ul>
+        </div>
+        <div class="grid-8 menu_description">
+          <h2 id="menu">Discover</h2>
+          <h3>Menu</h3>
+          <img src="assets/icons/divider-section-title.svg" alt="Divider Section Title">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Cras maximus diam dignissim augue pellentesque, 
+              et molestie felis pulvinar. Donec sed tristique leo. 
+              Aenean efficitur lacus id enim volutpat rutrum.
+          </p>
+          <a href="#">View the full menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="blend">
+      <div class="container">
+        <h2>The Perfect</h2>
+        <h3>Blend</h3>
+      </div>
+    </section>
+
+    <section class="delight">
+      <div class="container">
+        <div class="grid-8 delight_description">
+          <h2 id="culinary">Culinary</h2>
+          <h3>Delight</h3>
+          <img src="assets/icons/divider-section-title.svg" alt="Divider Section Title">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Cras maximus diam dignissim augue pellentesque, 
+              et molestie felis pulvinar. Donec sed tristique leo. 
+              Aenean efficitur lacus id enim volutpat rutrum.
+          </p>
+          <a href="#">View the full menu</a>
+        </div>
+        <div class="grid-8 delight_images">
+          <ul>
+            <li><img src="assets/images/image-delight-1.png" alt=""></li>
+            <li><img src="assets/images/image-delight-2.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="information">
+      <div class="container">
+        <div class="grid-8">
+          <p class="information_title" id="contact">Locations</p>
+          <ul>
+            <li>
+              <p>375 Van Brunt st</p>
+              <p>brooklyn - ny -  11231</p>
+            </li>
+            <li>
+              <p>25 union square West</p>
+              <p>new york - ny -  10225</p>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-8">
+          <p class="information_title">Hours</p>
+          <ul>
+            <li>
+              <p>monday - thursday</p>
+              <p>5:30pm - 10:00pm</p>
+            </li>
+            <li>
+              <p>Friday & saturday</p>
+              <p>5:30pm - 11:00pm</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>2020 &copy; <a href="https://shinodalabs.com.br">ShinodaLabs</a>. Todos direitos reservados.</p>
+    </footer>
+
+    <script src="js/simple-slide.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

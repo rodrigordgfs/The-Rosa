@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="321" height="14" viewBox="0 0 321 14">
-  <g id="Grupo_2" data-name="Grupo 2" transform="translate(-540.5 -533)">
-    <rect id="Retângulo_2" data-name="Retângulo 2" width="14" height="14" transform="translate(694 533)" fill="#ccaa6a"/>
-    <line id="Linha_1" data-name="Linha 1" x2="145" transform="translate(716.5 540.5)" fill="none" stroke="#fff" stroke-width="4"/>
-    <line id="Linha_2" data-name="Linha 2" x2="145" transform="translate(540.5 540.5)" fill="none" stroke="#fff" stroke-width="4"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="321" height="14" viewBox="0 0 321 14"><g id="Grupo_2" data-name="Grupo 2" transform="translate(-540.5 -533)"><rect id="Retângulo_2" width="14" height="14" fill="#ccaa6a" data-name="Retângulo 2" transform="translate(694 533)"/><line id="Linha_1" x2="145" fill="none" stroke="#fff" stroke-width="4" data-name="Linha 1" transform="translate(716.5 540.5)"/><line id="Linha_2" x2="145" fill="none" stroke="#fff" stroke-width="4" data-name="Linha 2" transform="translate(540.5 540.5)"/></g></svg>

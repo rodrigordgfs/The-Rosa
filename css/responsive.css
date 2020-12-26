@@ -1,7 +1,90 @@
 /* Tablets */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Story */
+  .story .story_description {
+    margin-top: -15px;
+  }
+
+  /* Menu */
+  .menu_images ul li img {
+    width: 170px;
+  }
+
+  .menu .menu_description {
+    margin-top: 20px;
+  }
+
+  /* Delight */
+  .delight_images ul li img {
+    width: 170px;
+  }
+
+  .delight .delight_description {
+    margin-top: 10px;
+  }
 }
 
 /* Smartphone */
 @media only screen and (max-width: 787px) {
+  /* Welcome */
+  .welcome .logo {
+    display: none;
+  }
+
+  .welcome .nav_menu {
+    display: none;
+  }
+
+  /* Story */
+  .story .story_description {
+    margin-top: -15px;
+  }
+
+  .story img {
+    padding-top: 20px;
+  }
+
+  /* Menu */
+  .menu_images ul li:last-child {
+    margin-left: 0px;
+  }
+
+  .menu_images_bottom {
+    margin-top: 0px;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  /* Blend */
+  .blend h2 {
+    font-size: 5em;
+  }
+
+  /* Delight */
+  .delight_images ul li:last-child {
+    margin-left: 0px;
+  }
+
+  .delight .delight_description {
+    margin-top: 0px;
+  }
+
+  .delight_images ul {
+    margin-top: 30px;
+  }
+
+  /* Information */
+  .information_title, .information ul{
+    text-align: center;
+  }
+
+  .information ul li {
+    display: inline;
+  }
+
+  .information ul li:last-child {
+    margin-left: 0px;
+  }
 }
